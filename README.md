@@ -87,7 +87,6 @@ The training of the baseline model was supposed to be done over 100 epochs howev
       ...........................................................................................
       ...........................................................................................
       ...........................................................................................
-      
       Epoch 64/100
       59/59 [==============================] - 19s 327ms/step - loss: 1.0781 - val_loss: 3.1586
       Epoch 65/100
@@ -127,7 +126,7 @@ The training of the baseline model was supposed to be done over 100 epochs howev
 The prediction over the testing set with the baseline model can finally be done.
 
 <p align="center">
-  <img title= "Prediction Baseline model" src="https://github.com/IsmaelMekene/pruning-image-classification/blob/main/data/pred_captcha.png">
+  <img title= "Prediction Baseline model" src="https://github.com/IsmaelMekene/pruning-image-classification/blob/main/data/captchaunkn.png">
 </p>
 
 
