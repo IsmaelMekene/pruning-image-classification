@@ -17,7 +17,11 @@ The Dataset used in this tutorial is made of 1040  captcha images and it can be 
 </p>
 
 
-## Model
+## Models
+
+### 1. Baseline Model
+
+- **Building**
 
 The baseline model is a combination of CNN and RNN while it builds in a CTC (Connectionist Temporal Classification) loss.
 *View [here](https://github.com/IsmaelMekene/pruning-image-classification/blob/main/models/baseline_model.py)*
@@ -61,3 +65,45 @@ The baseline model is a combination of CNN and RNN while it builds in a CTC (Con
       
       
       
+- **Training**
+
+The training of the baseline model was supposed to be done over 100 epochs however due to the earlystoping callbacks it has bee shortcutted to 13.
+
+
+
+      Epoch 1/100
+      59/59 [==============================] - 23s 397ms/step - loss: 0.2436 - val_loss: 0.1349
+      Epoch 2/100
+      59/59 [==============================] - 23s 394ms/step - loss: 0.1178 - val_loss: 0.1337
+      Epoch 3/100
+      59/59 [==============================] - 23s 393ms/step - loss: 0.1014 - val_loss: 0.1062
+      Epoch 4/100
+      59/59 [==============================] - 23s 392ms/step - loss: 0.1024 - val_loss: 0.1193
+      Epoch 5/100
+      59/59 [==============================] - 23s 393ms/step - loss: 0.0818 - val_loss: 0.1211
+      Epoch 6/100
+      59/59 [==============================] - 23s 394ms/step - loss: 0.0708 - val_loss: 0.1420
+      Epoch 7/100
+      59/59 [==============================] - 23s 393ms/step - loss: 0.0738 - val_loss: 0.1229
+      Epoch 8/100
+      59/59 [==============================] - 23s 397ms/step - loss: 0.0623 - val_loss: 0.1237
+      Epoch 9/100
+      59/59 [==============================] - 23s 394ms/step - loss: 0.0931 - val_loss: 0.1063
+      Epoch 10/100
+      59/59 [==============================] - 23s 392ms/step - loss: 0.0942 - val_loss: 0.1236
+      Epoch 11/100
+      59/59 [==============================] - 23s 393ms/step - loss: 0.0673 - val_loss: 0.1114
+      Epoch 12/100
+      59/59 [==============================] - 23s 393ms/step - loss: 0.0450 - val_loss: 0.1333
+      Epoch 13/100
+      59/59 [==============================] - 23s 392ms/step - loss: 0.0628 - val_loss: 0.1284
+      
+      
+      The average test loss is:  0.09358327692517868
+      
+      
+**Tensorboard**
+
+<p align="center">
+  <img title= "Baseline model" src="https://github.com/IsmaelMekene/pruning-image-classification/blob/main/data/loss_captcha.svg">
+</p>
