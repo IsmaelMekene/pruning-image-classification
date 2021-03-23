@@ -108,10 +108,15 @@ The training of the baseline model was supposed to be done over 100 epochs howev
   <img title= "Baseline model" src="https://github.com/IsmaelMekene/pruning-image-classification/blob/main/data/loss_captcha.svg">
 </p>
 
-- Inference
+- **Inference**
 
 The prediction over the testing set with the baseline model can finally be done.
 
 <p align="center">
   <img title= "Prediction Baseline model" src="https://github.com/IsmaelMekene/pruning-image-classification/blob/main/data/pred_captcha.png">
 </p>
+
+
+### 2. Pruning
+
+#### In progress ...
