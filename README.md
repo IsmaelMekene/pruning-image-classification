@@ -67,45 +67,53 @@ The baseline model is a combination of CNN and RNN while it builds in a CTC (Con
       
 - **Training**
 
-The training of the baseline model was supposed to be done over 100 epochs however due to the earlystoping callbacks it has bee shortcutted to 13.
-
+The training of the baseline model was supposed to be done over 100 epochs however due to the earlystoping callbacks it has bee shortcutted to 70.
 
 
       Epoch 1/100
-      59/59 [==============================] - 23s 397ms/step - loss: 0.2436 - val_loss: 0.1349
+      59/59 [==============================] - 20s 333ms/step - loss: 15.8925 - val_loss: 15.9355
       Epoch 2/100
-      59/59 [==============================] - 23s 394ms/step - loss: 0.1178 - val_loss: 0.1337
+      59/59 [==============================] - 19s 327ms/step - loss: 15.8719 - val_loss: 15.9185
       Epoch 3/100
-      59/59 [==============================] - 23s 393ms/step - loss: 0.1014 - val_loss: 0.1062
+      59/59 [==============================] - 19s 325ms/step - loss: 15.8590 - val_loss: 15.9586
       Epoch 4/100
-      59/59 [==============================] - 23s 392ms/step - loss: 0.1024 - val_loss: 0.1193
+      59/59 [==============================] - 19s 327ms/step - loss: 15.8422 - val_loss: 15.8480
       Epoch 5/100
-      59/59 [==============================] - 23s 393ms/step - loss: 0.0818 - val_loss: 0.1211
+      59/59 [==============================] - 19s 328ms/step - loss: 15.7953 - val_loss: 15.7318
       Epoch 6/100
-      59/59 [==============================] - 23s 394ms/step - loss: 0.0708 - val_loss: 0.1420
-      Epoch 7/100
-      59/59 [==============================] - 23s 393ms/step - loss: 0.0738 - val_loss: 0.1229
-      Epoch 8/100
-      59/59 [==============================] - 23s 397ms/step - loss: 0.0623 - val_loss: 0.1237
-      Epoch 9/100
-      59/59 [==============================] - 23s 394ms/step - loss: 0.0931 - val_loss: 0.1063
-      Epoch 10/100
-      59/59 [==============================] - 23s 392ms/step - loss: 0.0942 - val_loss: 0.1236
-      Epoch 11/100
-      59/59 [==============================] - 23s 393ms/step - loss: 0.0673 - val_loss: 0.1114
-      Epoch 12/100
-      59/59 [==============================] - 23s 393ms/step - loss: 0.0450 - val_loss: 0.1333
-      Epoch 13/100
-      59/59 [==============================] - 23s 392ms/step - loss: 0.0628 - val_loss: 0.1284
+      59/59 [==============================] - 20s 328ms/step - loss: 15.6659 - val_loss: 15.6584
+      ...........................................................................................
+      ...........................................................................................
+      ...........................................................................................
+      ...........................................................................................
+      ...........................................................................................
       
+      Epoch 64/100
+      59/59 [==============================] - 19s 327ms/step - loss: 1.0781 - val_loss: 3.1586
+      Epoch 65/100
+      59/59 [==============================] - 19s 328ms/step - loss: 1.0220 - val_loss: 3.2568
+      Epoch 66/100
+      59/59 [==============================] - 19s 329ms/step - loss: 1.0255 - val_loss: 3.2485
+      Epoch 67/100
+      59/59 [==============================] - 19s 330ms/step - loss: 0.9274 - val_loss: 3.2822
+      Epoch 68/100
+      59/59 [==============================] - 20s 330ms/step - loss: 0.9161 - val_loss: 3.2268
+      Epoch 69/100
+      59/59 [==============================] - 20s 331ms/step - loss: 0.8822 - val_loss: 3.2057
+      Epoch 70/100
+      59/59 [==============================] - 19s 330ms/step - loss: 0.8173 - val_loss: 3.1939
+      Epoch 71/100
+      59/59 [==============================] - 20s 330ms/step - loss: 0.8388 - val_loss: 3.6005
+
+
+      The average test loss is:  6.690040703390686
+
       
-      The average test loss is:  0.09358327692517868
-      
-      
+  
 - **Tensorboard**
 
 <p align="center">
-  <img title= "Baseline model" src="https://github.com/IsmaelMekene/pruning-image-classification/blob/main/data/loss_captcha.svg">
+  <img title= "Baseline model" src="https://github.com/IsmaelMekene/pruning-image-classification/blob/main/data/captchagoodloss.svg">
 </p>
 
 
