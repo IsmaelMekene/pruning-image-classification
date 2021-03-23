@@ -13,5 +13,5 @@ In rhis tutorial, we first deal with a simple OCR model built with the Functiona
 The Dataset used in this tutorial is made of 1040  captcha images and it can be downloaded [here](https://github.com/IsmaelMekene/pruning-image-classification/blob/main/data/captchas.zip)
 
 <p align="center">
-  <img title= "Data Visualisation" src="https://github.com/IsmaelMekene/pruning-image-classification/blob/main/data/viz_captcha.png">
+  <img title= "Data Visualisation" src="https://github.com/IsmaelMekene/pruning-image-classification/blob/main/data/viz_captcha.png" alt="Visualize fee captchas">
 </p>
