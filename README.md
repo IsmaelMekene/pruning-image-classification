@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In rhis tutorial, we first deal with a simple OCR model built with the Functional API. Apart from combining CNN and RNN, it also illustrates how you can instantiate a new layer and use it as an "Endpoint layer" for implementing **Connectionist Temporal Classification loss**. Thereafter, we implement pruned versions of the baseline model in order to evalute them.
+In this tutorial, we first deal with a simple OCR model built with the Functional API. Apart from combining CNN and RNN, it also illustrates how you can instantiate a new layer and use it as an "Endpoint layer" for implementing **Connectionist Temporal Classification loss**. Thereafter, we implement pruned versions of the baseline model in order to evalute them.
 
 ## Installation
 
@@ -107,6 +107,10 @@ The training of the baseline model was supposed to be done over 100 epochs howev
 <p align="center">
   <img title= "Baseline model" src="https://github.com/IsmaelMekene/pruning-image-classification/blob/main/data/loss_captcha.svg">
 </p>
+
+
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `train`
+![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `validation` 
 
 - **Inference**
 
