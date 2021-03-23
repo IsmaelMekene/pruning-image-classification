@@ -1,4 +1,4 @@
-# pruning-image-classification
+# :framed_picture: pruning-image-classification
 
 ## Introduction
 
