@@ -109,8 +109,10 @@ The training of the baseline model was supposed to be done over 100 epochs howev
 </p>
 
 
-![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `train`
-![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `validation` 
+  ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `train`
+
+  ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `validation` 
+
 
 - **Inference**
 
